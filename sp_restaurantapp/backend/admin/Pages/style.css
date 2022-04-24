@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: 0.5s ease-in-out;
+}
+.linkname{
+
+    margin: 10px 0;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+span{
+    color: #c79c25;
+}
+.box{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    margin: 30px;
+    height: 75vh;
+
+}
+.order,.budget,.burger,.sweets,.icecream,.cake,.drinks,.cupcakes{
+    border: 1px solid red;
+    width: 25vw;
+    height: 19vh;
+    display: block;
+}
+.order{
+    border-radius: 10px;
+    border: none;
+    background-color: #264653;
+    color: white;
+    text-align: center;
+}
+.order h1,.order p{
+    margin-top: 20px;
+}
+.order p{
+    font-size: 24px;
+}
+.budget{
+    border-radius: 10px;
+    border: none;
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+}
+.budget h1,.budget p{
+    margin-top: 20px;
+}
+.budget p{
+    font-size: 24px;
+}
+.burger{
+    border-radius: 10px;
+    border: none;
+    background-color: #e9c46a;
+    color: white;
+    text-align: center;
+}
+.burger h1,.burger p{
+    margin-top: 20px;
+}
+.burger p{
+    font-size: 24px;
+}
+.sweets{
+    border-radius: 10px;
+    border: none;
+    background-color: #f4a261;
+    color: white;
+    text-align: center;
+}
+.sweets h1,.sweets p{
+    margin-top: 20px;
+}
+.sweets p{
+    font-size: 24px;
+}
+.icecream{
+    border-radius: 10px;
+    border: none;
+    background-color: #f76f51;
+    color: white;
+    text-align: center;
+}
+.icecream h1,.icecream p{
+    margin-top: 20px;
+}
+.icecream p{
+    font-size: 24px;
+}
+.cake{
+    border-radius: 10px;
+    border: none;
+    background-color: #f94144;
+    color: white;
+    text-align: center;
+}
+.cake h1,.cake p{
+    margin-top: 20px;
+}
+.cake p{
+    font-size: 24px;
+}
+.drinks{
+    border-radius: 10px;
+    border: none;
+    background-color: #277da1;
+    color: white;
+    text-align: center;
+}
+.drinks h1,.drinks p{
+    margin-top: 20px;
+}
+.drinks p{
+    font-size: 24px;
+}
+.cupcakes{
+    border-radius: 10px;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+}
+.cupcakes h1,.cupcakes p{
+    margin-top: 20px;
+}
+.cupcakes p{
+    font-size: 24px;
+}
+
+/* -------------------  See orders ---------------    */
+.table{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.table table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+.table th ,.table td{
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    
+}
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #e9c46a;
+    color: white;
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+.table .left{
+    border-top-left-radius: 10px;
+}
+.table .right{
+    border-top-right-radius: 10px;
+}
+
+/*------------Burger ------------*/
+.burgerlist{
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #ddd;
+    padding: 20px;
+}
+.form{
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #ddd;
+    padding: 20px;
+
+}
+
+input[type=text],input[type=number] ,select, textarea{
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+}
+textarea{
+    height: 200px;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: block;
+    font-size: 20px;
+}
+input[type=submit]{
+    background-color: #e9c46a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+
+}
+input[type=submit]:hover{
+    background-color: #c79c25;
+}
+
+.burgerlist .table tr td a{
+    color: white;
+    display: block;
+    width: 30vw;
+    height: 5vh;
+    padding-top: 10px;
+    background-color: #e9c46a;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius:10px ;
+}
+.burgerlist .table tr td a:hover{
+    background-color: #c79c25;
+}
